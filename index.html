@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Maggie West | Drawing II</title>
+  <meta name="description" content="WebGl | Maggie West">
+  <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+  <link href="styles.css" rel="stylesheet"/>
+  <script src="http://i6.cims.nyu.edu/~mmw480/drawing/hw8/js/three.js"></script>
+  <script src="http://i6.cims.nyu.edu/~mmw480/drawing/hw8/js/three.min.js"></script>
+  <!-- <script src="http://i6.cims.nyu.edu/~mmw480/drawing/hw8/js/three.module.js"></script> -->
+  <script src='http://threejs.org/examples/js/controls/OrbitControls.js'></script>
+
+  <script src="http://i6.cims.nyu.edu/~mmw480/drawing/hw7/js/OrbitControls.js"></script>
+  <script src="js/OBJLoader.js"></script>
+  <script src="https://threejsfundamentals.org/threejs/resources/threejs/r103/js/loaders/LoaderSupport.js"></script>
+  <script src="https://threejsfundamentals.org/threejs/resources/threejs/r103/js/loaders/OBJLoader2.js"></script>
+  <script src="https://threejsfundamentals.org/threejs/resources/threejs/r103/js/loaders/MTLLoader.js"></script>
+  <script src="js/stats.min.js"></script>
+  
+  
+  
+  
+</head>
+
+
+
+<body>
+
+    <header>
+      <div id="mw-logo">
+        <img class="icon icon-logo" src="http://i6.cims.nyu.edu/~mmw480/drawing/hw8/textures/logo_red_shadow.svg"/>
+      </div>
+      <ul id="navbar-container">
+        <li class="navbar-item">
+          <h1 class="link-item">Final Project</h1>
+        </li>
+        <li class="navbar-item">
+          <a href="http://i6.cims.nyu.edu/~mmw480/drawing/landingpage.html" class="link-item">HOME</a>
+        </li>
+        <li class="navbar-item">
+          <a href="https://github.com/maggiewest/final_project" class="link-item">GITHUB</a>
+        </li>
+        <li class="navbar-item">
+            <a href="http://i6.cims.nyu.edu/~mmw480/drawing/hw8/drawing2.html" class="link-item">DRAWING II</a>
+          </li>
+        <li class="navbar-item">
+          <a href="http://i6.cims.nyu.edu/~mmw480/drawing/hw8/index.html" class="link-item">BACK</a>
+        </li>
+      </ul>
+    </header>
+<section>
+    <div class="content">
+
+    <canvas id="canvas-container"></canvas>
+
+    </div>
+
+  </section>
+  <section>
+  <div class="content">
+    
+    <!-- <div class="scene scene--card">
+      <div class="card">
+        <div class="face face--front">Front</div>
+        <div class="face face--back">Back</div>
+      </div>
+    </div> -->
+     
+      <form>
+        Select Pattern:
+        <select id="selection">
+          <option value="a">Pattern A</option>
+          <option value="b">Pattern B</option>
+          <option value="c">Pattern C</option>
+        </select>
+
+        <button class="btn" onclick="myFunction()">Submit Pattern</button>
+      </form>
+  
+</div>
+</section>
+
+
+
+</body>
+</html>
+
